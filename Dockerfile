@@ -4,7 +4,7 @@ FROM nginx
 
 # Cooker
 
-WORKDIR /app
+WORKDIR /usr/share/nginx/html
 
 # ingredients
 COPY index.html /usr/share/nginx/html
